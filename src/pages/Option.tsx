@@ -1,4 +1,3 @@
-
 export default function Option() {
   return (
     <div>
@@ -8,5 +7,5 @@ export default function Option() {
       <button>update riddle</button>
       <button>show all riddles</button>
     </div>
-  )
+  );
 }
