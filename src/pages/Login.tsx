@@ -49,7 +49,7 @@ export default function Login() {
         <button type="submit">login</button>
       </form>
       {error && <p>{error}</p>}
-      <Link to="/play">game</Link>
+      <Link to="/">home</Link>
     </div>
   );
 }

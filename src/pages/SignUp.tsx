@@ -51,7 +51,7 @@ export default function SignUp() {
         <button type="submit">submit</button>
       </form>
       {error && <p>{error}</p>}
-      <Link to="/play">game</Link>
+      <Link to="/">home</Link>
     </div>
   );
 }
