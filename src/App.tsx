@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
 // import "./App.css";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Play from "./pages/Play";
 import SignUp from "./pages/SignUp";
@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
         <Route path="/login" element={<Login />} />
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/play" element={<Play />} />
