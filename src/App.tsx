@@ -6,6 +6,7 @@ import Play from "./pages/Play";
 import SignUp from "./pages/SignUp";
 import Option from "./pages/Option";
 import ShowRiddles from "./pages/ShowRiddles";
+import AddRiddle from "./pages/AddRiddle";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/play" element={<Play />} />
         <Route path="/option" element={<Option />} />
         <Route path="/showAllRiddles" element={<ShowRiddles />} />
+        <Route path="/addRiddle" element={<AddRiddle />} />
       </Routes>
     </div>
   );

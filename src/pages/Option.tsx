@@ -9,6 +9,7 @@ export default function Option() {
       <button>delete riddle</button>
       <button>update riddle</button>
       <button onClick={()=>navigate('/showAllRiddles')}>show all riddles</button>
+      <button onClick={()=> navigate('/addRiddle')}>add riddle</button>
       <Link to="/">home</Link>
     </div>
   );

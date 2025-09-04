@@ -15,7 +15,7 @@ export default function ShowRiddles() {
         try{
             const res = await fetch("http://localhost:3041/riddles");
             const data = await res.json(); 
-            setRiddles(data)
+            setRiddles(data.riddles)
             console.log(data)
         }
         catch(err){
@@ -30,7 +30,7 @@ export default function ShowRiddles() {
     <div>
       <h2>show all riddles</h2>
         <ul>
-        {riddles?.map((r) => (
+        {riddles.map((r) => (
           <li key={r._id}>
             <strong>{r.name}</strong>: {r.taskDescription} Answer: {r.correctAnswer}
           </li>
